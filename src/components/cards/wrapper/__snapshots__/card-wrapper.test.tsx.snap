@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders card wrapper correctly 1`] = `
+<div
+  class="relative overflow-hidden h-auto card shadow-one radius-none"
+  role="presentation"
+>
+  <h2>
+    Card Wrapper
+  </h2>
+</div>
+`;

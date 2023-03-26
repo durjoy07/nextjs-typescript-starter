@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["next/core-web-vitals", "next", "prettier"],
+  "rules": {
+    "import/no-anonymous-default-export": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unused-vars": "error"
+  },
+  "ignorePatterns": [
+    "node_modules",
+    ".next",
+    ".storybook",
+    ".swc",
+    "docs",
+    "storybook-static"
+  ]
+}

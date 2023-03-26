@@ -1,0 +1,11 @@
+.content-wrapper {
+  --spacing: 120px;
+  --overlap-content-height-half: var(--overlap-content-height-half);
+
+  @screen lg {
+    --spacing: 170px;
+  }
+
+  padding-top: var(--spacing);
+  padding-bottom: calc(var(--overlap-content-height-half) + var(--spacing));
+}

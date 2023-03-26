@@ -1,0 +1,9 @@
+# Declare services.
+services:
+  frontend:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: on-failure:10
+    ports:
+      - '3000:3000'

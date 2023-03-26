@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders hero correctly 1`] = `
+<section
+  class="section-padding-primary flex min-h-screen items-center bg-black"
+  role="presentation"
+>
+  <div
+    class="container"
+    role="presentation"
+  >
+    <div
+      class="max-w-[1200px]"
+    >
+      <div
+        class="space-y-12"
+      >
+        <h2
+          class="text-3xl text-white md:text-4xl 2xl:text-5xl"
+        >
+          Lemon Hive, We Build Lightning Fast Websites
+        </h2>
+        <p
+          class="text-xl text-white"
+        >
+          We make secure, flexible and fast headless (Jamstack) websites and apps that improve Technical SEO, increase visitor numbers & conversion rates. We build with Sanity, BigCommerce, Prismic, Strapi, Contentful, WordPress, and other headless content management systems. We create front-ends with Vue, Svelte, Remix and React utilising Next.js, Gatsby, Nuxt, React Native, and others.
+        </p>
+        <div
+          class="inline-flex flex-wrap items-center gap-4"
+        >
+          <a
+            class="inline-flex focus:outline-none focus-visible:outline-none focus:shadow-none focus-visible:shadow-none"
+            href="/"
+            target="_self"
+          >
+            <span
+              aria-label="Server Side Example"
+              class="relative z-10 group/button overflow-hidden inline-flex items-center justify-center gap-3 cursor-pointer text-white hover:text-white leading-[1.15] button primary-bg-text-white hover-secondary-bg-text-white sm"
+            >
+              <span>
+                Server Side Example
+              </span>
+              <span
+                class="absolute z-[-1] inset-0 invisible opacity-0 group-hover/button:visible group-hover/button:opacity-100 button-bg"
+              />
+            </span>
+          </a>
+          <a
+            class="inline-flex focus:outline-none focus-visible:outline-none focus:shadow-none focus-visible:shadow-none"
+            href="client-side"
+            target="_self"
+          >
+            <span
+              aria-label="Client Side Example"
+              class="relative z-10 group/button overflow-hidden inline-flex items-center justify-center gap-3 cursor-pointer text-white hover:text-white leading-[1.15] button secondary-bg-text-white hover-primary-bg-text-white sm"
+            >
+              <span>
+                Client Side Example
+              </span>
+              <span
+                class="absolute z-[-1] inset-0 invisible opacity-0 group-hover/button:visible group-hover/button:opacity-100 button-bg"
+              />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

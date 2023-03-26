@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list content section correctly 1`] = `
+<section
+  class="section-padding-primary secondary"
+  role="presentation"
+>
+  <div
+    class="container"
+    role="presentation"
+  >
+    <div
+      class="w-full max-w-[800px]"
+    >
+      <div
+        class="space-y-2 lg:space-y-3 mb-[1.875rem] md:mb-[3.25rem] section-heading secondary"
+        role="presentation"
+      >
+        <h2
+          class="text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] title"
+        >
+          Who We Work With
+        </h2>
+        <div
+          class="text-[.875rem] leading-[1.3] md:text-base mt-3 lg:mt-5 description"
+        >
+          <article
+            class="prose max-w-full space-y-4"
+          >
+            <p
+              class="dark:text-white"
+              id="0ffdc2e0f0b8"
+            >
+              <a
+                class="no-underline styled-link"
+                href="https://www.google.com"
+                target="_blank"
+              >
+                <span
+                  class="link-underline"
+                >
+                  Headless website
+                </span>
+              </a>
+               for an award winning digital marketing agency.
+            </p>
+            <br />
+            <p
+              class="dark:text-white"
+              id="c0b3d76ed804"
+            >
+              <strong>
+                Lorem ipsum
+              </strong>
+               dolor 
+              <em>
+                sit amet consectetur
+              </em>
+              . Vitae cursus ultricies interdu ridiculus. Nullam nuwel craegestas risus 
+              <span
+                style="text-decoration: underline;"
+              >
+                diam lorem nascetur
+              </span>
+              . Lorem ipsum dolor sit amet consectetur. Vitae cursus ultricies interdu ridiculus. Nullam nuwel craegestas risus 
+              <strong>
+                diam lorem nascetu ullam nuwel
+              </strong>
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-12"
+    >
+      <div
+        class="space-y-4"
+      >
+        <h3
+          class="text-lg lg:text-2xl font-bold theme-text"
+        >
+          Services for Agencies
+        </h3>
+        <div>
+          <article
+            class="prose max-w-full space-y-4"
+          >
+            <p
+              class="dark:text-white"
+              id="d956675f69e0"
+            >
+              For design, branding, web development, marketing, consulting & other agencies.
+            </p>
+            <p
+              class="dark:text-white"
+              id="f9a72086f01c"
+            >
+              We work with agencies in a number of different ways, but predominantly as an extension of your team to add headless development expertise.
+            </p>
+            <p
+              class="dark:text-white"
+              id="af14faef2a19"
+            >
+              With the move towards headless website development, it can be difficult to find the right people, with the right expertise, to produce websites to your standards. By outsourcing the development and/or design to us, we can ensure you build exceptional headless websites that exceed what is possible with monolithic platforms such as WordPress.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div
+        class="space-y-4"
+      >
+        <h3
+          class="text-lg lg:text-2xl font-bold theme-text"
+        >
+          Services for Agencies
+        </h3>
+        <div>
+          <article
+            class="prose max-w-full space-y-4"
+          >
+            <p
+              class="dark:text-white"
+              id="d956675f69e0"
+            >
+              For design, branding, web development, marketing, consulting & other agencies.
+            </p>
+            <p
+              class="dark:text-white"
+              id="f9a72086f01c"
+            >
+              We work with agencies in a number of different ways, but predominantly as an extension of your team to add headless development expertise.
+            </p>
+            <p
+              class="dark:text-white"
+              id="af14faef2a19"
+            >
+              With the move towards headless website development, it can be difficult to find the right people, with the right expertise, to produce websites to your standards. By outsourcing the development and/or design to us, we can ensure you build exceptional headless websites that exceed what is possible with monolithic platforms such as WordPress.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

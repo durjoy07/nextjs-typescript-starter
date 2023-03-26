@@ -1,0 +1,99 @@
+/*=================================================
+  Text, Background & Hover Colors, Sizes, Icon Animation.
+===================================================*/
+.button {
+  transition: var(--transition);
+  .button-bg {
+    transition: var(--transition);
+  }
+
+  // Fill colorSchemes
+
+  // primary-bg-text-white
+  &.primary-bg-text-white {
+    @apply bg-primary text-white;
+  }
+  &.hover-primary-bg-text-white {
+    @apply hover:text-white;
+    .button-bg {
+      @apply bg-primary;
+    }
+  }
+  // secondary-bg-text-white
+  &.secondary-bg-text-white {
+    @apply bg-secondary text-white;
+  }
+  &.hover-secondary-bg-text-white {
+    @apply hover:text-white;
+    .button-bg {
+      @apply bg-secondary;
+    }
+  }
+
+  // black-bg-text-white
+  &.black-bg-text-white {
+    @apply bg-black text-white;
+  }
+  &.hover-black-bg-text-white {
+    @apply hover:text-white;
+    .button-bg {
+      @apply bg-black;
+    }
+  }
+
+  // white-bg-text-black
+  &.white-bg-text-black {
+    @apply bg-white text-black;
+  }
+  &.hover-white-bg-text-black {
+    @apply hover:text-black;
+    .button-bg {
+      @apply bg-white;
+    }
+  }
+
+  // Outline colorSchemes
+  &.outline {
+    @apply border border-primary text-primary;
+    &.transparent-bg-text-primary {
+      @apply border-primary text-primary;
+    }
+    &.hover-transparent-bg-text-primary {
+      @apply hover:border-primary hover:bg-transparent hover:text-primary;
+    }
+    &.transparent-bg-text-secondary {
+      @apply border-secondary text-secondary;
+    }
+    &.hover-transparent-bg-text-secondary {
+      @apply hover:border-secondary hover:bg-transparent hover:text-secondary;
+    }
+  }
+
+  //  Button Sizes
+
+  // size - lg
+  &.lg {
+    @apply min-h-[3rem] rounded-md  p-[.75rem_1.5rem] text-base font-normal md:min-h-[3.5rem] md:p-[.875rem_2rem]  md:font-medium;
+  }
+  // size - md
+  &.md {
+    @apply min-h-[2.5rem] rounded-md  p-[.75rem_1rem] text-sm font-normal md:min-h-[3rem] md:p-[.875rem_2rem] md:text-base;
+  }
+  // size - sm
+  &.sm {
+    @apply min-h-[3rem] rounded-[.3125rem] p-[.75rem_1.5rem] text-base font-normal;
+  }
+  // size - xs
+  &.xs {
+    @apply min-h-[2.5rem] gap-2 rounded-[.3125rem] p-[.75rem_1rem]  text-sm font-normal;
+  }
+
+  // shiftIconOnHover
+  &.shift-icon-on-hover {
+    &:hover {
+      .button-icon {
+        @apply animate-toRightFromLeft;
+      }
+    }
+  }
+}

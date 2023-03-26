@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders cta button correctly 1`] = `
+<a
+  class="relative z-10 overflow-hidden inline-flex items-center justify-center underline transition-colors cta-button primary"
+  href="/"
+  target="_self"
+>
+  Cta button
+</a>
+`;

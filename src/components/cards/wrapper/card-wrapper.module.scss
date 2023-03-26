@@ -1,0 +1,42 @@
+.card {
+  transition: var(--transition);
+
+  // radius
+  &.radius-one {
+    @apply rounded-5;
+  }
+  &.radius-two {
+    @apply rounded-10;
+  }
+  &.none {
+    @apply rounded-none;
+  }
+
+  // shadow - normal state
+  &.shadow-one {
+    @apply shadow-1;
+  }
+  &.shadow-two {
+    @apply shadow-2;
+  }
+  &.shadow-none {
+    box-shadow: none;
+  }
+
+  // shadow - hover state
+  &.hover-shadow-one {
+    &:hover {
+      @apply shadow-1;
+    }
+  }
+  &.hover-shadow-two {
+    &:hover {
+      @apply shadow-2;
+    }
+  }
+  &.hover-shadow-none {
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders course card correctly 1`] = `
+<div
+  class="relative overflow-hidden h-auto card shadow-one radius-one"
+  role="presentation"
+>
+  <a
+    class="block"
+    href="https://www.lemonhive.com/"
+  >
+    <div
+      class="group/card relative h-full bg-success/[.2]"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="dummy image 2"
+            class="transition-transform ease-in-out group-hover/card:scale-110"
+            data-nimg="1"
+            decoding="async"
+            height="720"
+            loading="lazy"
+            src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+            style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+            width="960"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col space-y-3 p-5 pt-8"
+      >
+        <h3
+          class="flex-1 text-lg font-bold line-clamp-2"
+        >
+          Headless Website Development
+        </h3>
+        <p
+          class="line-clamp-3"
+        >
+          Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+        </p>
+        <div>
+          <div
+            class="mt-4 flex items-center gap-2"
+          >
+            <span
+              class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+              role="presentation"
+            >
+              Reactjs
+            </span>
+            <span
+              class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+              role="presentation"
+            >
+              Nextjs
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders course card correctly with link 1`] = `
+<a
+  class="block"
+  href="https://www.lemonhive.com/"
+>
+  <div
+    class="group/card relative h-full bg-success/[.2]"
+  >
+    <div
+      class="relative"
+    >
+      <div
+        class="overflow-hidden"
+      >
+        <img
+          alt="dummy image 2"
+          class="transition-transform ease-in-out group-hover/card:scale-110"
+          data-nimg="1"
+          decoding="async"
+          height="720"
+          loading="lazy"
+          src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+          style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+          width="960"
+        />
+      </div>
+    </div>
+    <div
+      class="flex flex-col space-y-3 p-5 pt-8"
+    >
+      <h3
+        class="flex-1 text-lg font-bold line-clamp-2"
+      >
+        Headless Website Development
+      </h3>
+      <p
+        class="line-clamp-3"
+      >
+        Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+      </p>
+      <div>
+        <div
+          class="mt-4 flex items-center gap-2"
+        >
+          <span
+            class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+            role="presentation"
+          >
+            Reactjs
+          </span>
+          <span
+            class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+            role="presentation"
+          >
+            Nextjs
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+`;

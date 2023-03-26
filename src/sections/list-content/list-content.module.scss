@@ -1,0 +1,8 @@
+.theme-text {
+  .primary & {
+    @apply text-primary;
+  }
+  .secondary & {
+    @apply text-secondary;
+  }
+}

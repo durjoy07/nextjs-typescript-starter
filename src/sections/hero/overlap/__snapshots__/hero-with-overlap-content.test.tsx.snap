@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders hero with overlp content correctly 1`] = `
+<section
+  role="presentation"
+>
+  <div
+    class=" flex min-h-[500px] justify-between bg-black lg:min-h-[700px]"
+  >
+    <div
+      class="container"
+      role="presentation"
+    >
+      <div
+        class="max-w-[1200px] content-wrapper"
+        style="--overlap-content-height-half: 0px;"
+      >
+        <div
+          class="space-y-12"
+        >
+          <h2
+            class="text-3xl text-white md:text-4xl 2xl:text-5xl"
+          >
+            Lemon Hive, We Build Lightning Fast Websites
+          </h2>
+          <p
+            class="text-xl text-white"
+          >
+            We Build Lightning Fast Websites With Amazing UX Using Headless Architectures
+          </p>
+          <div
+            class="inline-flex flex-wrap items-center gap-4"
+          >
+            <a
+              class="inline-flex focus:outline-none focus-visible:outline-none focus:shadow-none focus-visible:shadow-none"
+              href="/"
+              target="_self"
+            >
+              <span
+                aria-label="Server Side Example"
+                class="relative z-10 group/button overflow-hidden inline-flex items-center justify-center gap-3 cursor-pointer text-white hover:text-white leading-[1.15] button primary-bg-text-white hover-secondary-bg-text-white sm"
+              >
+                <span>
+                  Server Side Example
+                </span>
+                <span
+                  class="absolute z-[-1] inset-0 invisible opacity-0 group-hover/button:visible group-hover/button:opacity-100 button-bg"
+                />
+              </span>
+            </a>
+            <a
+              class="inline-flex focus:outline-none focus-visible:outline-none focus:shadow-none focus-visible:shadow-none"
+              href="client-side"
+              target="_self"
+            >
+              <span
+                aria-label="Client Side Example"
+                class="relative z-10 group/button overflow-hidden inline-flex items-center justify-center gap-3 cursor-pointer text-white hover:text-white leading-[1.15] button secondary-bg-text-white hover-primary-bg-text-white sm"
+              >
+                <span>
+                  Client Side Example
+                </span>
+                <span
+                  class="absolute z-[-1] inset-0 invisible opacity-0 group-hover/button:visible group-hover/button:opacity-100 button-bg"
+                />
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="-translate-y-1/2"
+    style="margin-bottom: -0px;"
+  >
+    <div
+      class="container"
+      role="presentation"
+    >
+      <div
+        class="rounded-10 bg-[#ddd] px-12 py-10 shadow-1"
+      >
+        <div
+          class="space-y-6"
+        >
+          <h2
+            class="text-3xl text-black md:text-4xl"
+          >
+            We Build Lightning Fast Websites With Amazing UX Using Headless
+          </h2>
+          <p
+            class="text-xl text-black"
+          >
+            We make secure, flexible and fast headless (Jamstack) websites and apps that improve Technical SEO, increase visitor numbers & conversion rates. We build with Sanity, BigCommerce, Prismic, Strapi, Contentful, WordPress, and other headless content management systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

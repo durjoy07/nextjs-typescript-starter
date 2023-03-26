@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders tag correctly 1`] = `
+<span
+  class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+  role="presentation"
+>
+  Nextjs
+</span>
+`;

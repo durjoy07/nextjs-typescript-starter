@@ -1,0 +1,14 @@
+.cta-button {
+  &.primary {
+    @apply text-primary;
+  }
+  &.hover-primary {
+    @apply hover:text-primary;
+  }
+  &.secondary {
+    @apply text-secondary;
+  }
+  &.hover-secondary {
+    @apply hover:text-secondary;
+  }
+}

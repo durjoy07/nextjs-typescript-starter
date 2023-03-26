@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders container correctly 1`] = `
+<div
+  class="container"
+  role="presentation"
+>
+  <h2>
+    Container
+  </h2>
+</div>
+`;

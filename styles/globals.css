@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --transition: all 0.35s ease-in-out;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-secondary;
+  }
+
+  html {
+    /* NOTE: If you have fixed navbar, please set scroll padding as per your navbar height */
+    @apply scroll-p-[6rem] scroll-smooth lg:scroll-p-[9rem];
+  }
+
+  body,
+  p {
+    @apply text-base text-black  dark:text-white;
+  }
+}
+
+/**
+* Used in all section components
+*/
+@layer components {
+  .section-padding-primary {
+    @apply py-[3.75rem] md:py-[6.25rem] xl:py-[7.5rem];
+  }
+}

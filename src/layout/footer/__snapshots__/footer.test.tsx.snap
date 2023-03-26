@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render footer correctly 1`] = `
+<footer
+  class="bg-black-light py-6 lg:py-8"
+  role="presentation"
+>
+  <div
+    class="container"
+    role="presentation"
+  >
+    <p
+      class="text-center text-base text-white"
+    >
+      © Lemon Hive. 
+      2023
+    </p>
+  </div>
+</footer>
+`;

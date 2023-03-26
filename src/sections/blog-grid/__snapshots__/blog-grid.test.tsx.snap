@@ -1,0 +1,602 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders blog grid correctly 1`] = `
+<section
+  class="section-padding-primary bg-gray-medium"
+  role="presentation"
+>
+  <div
+    class="container"
+    role="presentation"
+  >
+    <div
+      class="max-w-[700px]"
+    >
+      <div
+        class="space-y-2 lg:space-y-3 mb-[1.875rem] md:mb-[3.25rem] section-heading primary"
+        role="presentation"
+      >
+        <h2
+          class="text-[1.75rem] font-medium leading-[1.3] md:text-[3rem] md:font-bold md:leading-[1.1] title"
+        >
+          Our Blog
+        </h2>
+        <div
+          class="text-[.875rem] leading-[1.3] md:text-base mt-3 lg:mt-5 description"
+        >
+          <article
+            class="prose max-w-full space-y-4"
+          >
+            <p
+              class="dark:text-white"
+              id="0ffdc2e0f0b8"
+            >
+              <a
+                class="no-underline styled-link"
+                href="https://www.google.com"
+                target="_blank"
+              >
+                <span
+                  class="link-underline"
+                >
+                  Headless website
+                </span>
+              </a>
+               for an award winning digital marketing agency.
+            </p>
+            <br />
+            <p
+              class="dark:text-white"
+              id="c0b3d76ed804"
+            >
+              <strong>
+                Lorem ipsum
+              </strong>
+               dolor 
+              <em>
+                sit amet consectetur
+              </em>
+              . Vitae cursus ultricies interdu ridiculus. Nullam nuwel craegestas risus 
+              <span
+                style="text-decoration: underline;"
+              >
+                diam lorem nascetur
+              </span>
+              . Lorem ipsum dolor sit amet consectetur. Vitae cursus ultricies interdu ridiculus. Nullam nuwel craegestas risus 
+              <strong>
+                diam lorem nascetu ullam nuwel
+              </strong>
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
+    >
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="relative overflow-hidden h-auto card shadow-one radius-one"
+        role="presentation"
+      >
+        <a
+          class="block"
+          href="https://www.lemonhive.com/"
+        >
+          <div
+            class="group/card relative h-full bg-success/[.2]"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="overflow-hidden"
+              >
+                <img
+                  alt="dummy image 2"
+                  class="transition-transform ease-in-out group-hover/card:scale-110"
+                  data-nimg="1"
+                  decoding="async"
+                  height="720"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdktw59lc2%2Fimage%2Fupload%2Fv1669267967%2FBrightonSEO%2FCarousel%2Fimage-2_yph8q6.jpg&w=1920&q=75 2x"
+                  style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  width="960"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-3 p-5 pt-8"
+            >
+              <h3
+                class="flex-1 text-lg font-bold line-clamp-2"
+              >
+                Headless Website Development
+              </h3>
+              <p
+                class="line-clamp-3"
+              >
+                Headless solutions built with Sanity.io, Strapi, Prismic, Contentful and others with front-end frameworks such as Next.js, Gatsby, & Nuxt.
+              </p>
+              <div>
+                <div
+                  class="mt-4 flex items-center gap-2"
+                >
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-warning"
+                    role="presentation"
+                  >
+                    Reactjs
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm font-semibold text-black rounded-full bg-danger-light"
+                    role="presentation"
+                  >
+                    Nextjs
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;
